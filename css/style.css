@@ -20,6 +20,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin: 100px 1169px 188px 156px;
 }
 
 .header-logo .logo-part {
@@ -73,11 +74,14 @@ a {
 .footer-page {
     background-color: #2e2f42;
     line-height: 1.5;
+    width: auto;
+    height: 312px;
 }
 
 .paragraph-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    margin: 140px 1020px 100px 156px;
 }
 
 .hero-section {
@@ -90,6 +94,9 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    width: 1440px;
+    padding: 188px 472px 292px 472px;
+    margin: 0 0;
 }
 
 .button {
@@ -98,7 +105,9 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
-    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 48px;
+    text-align: center;
 }
 
 button:hover,
@@ -118,6 +127,7 @@ button:focus {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 120px 611px 72px 611px;
 }
 
 .portfolio-widget {
@@ -148,13 +158,6 @@ button:focus {
     color: #2e2f42;
 }
 
-.bs-headline {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
 .team-members {
     background-color: #FFFFFF;
     font-weight: 500;
@@ -170,6 +173,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px ;
+    padding-bottom: 72px;
 }
 
 .bs-paragraf {
@@ -198,4 +203,39 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.team-list {
+text-align: center;
+display: flex;
+padding: 0 156px 120px 156px;
+gap: 24px;
+}
+.hero-section {
+    width: auto;
+    height: 600px;
+}
+.bs-list {
+display: flex;
+padding: 120px 156px 120px 156px;
+gap: 24px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-left: 156px;
+    margin-bottom: 120px;
+    margin-right: 156px;
+}
+.nav-list {
+    display: flex;
+        margin: 24px 832px 24px 347px;
+        gap: 40px;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    margin: 24px 347px 24px 940px;
+
 }

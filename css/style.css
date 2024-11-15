@@ -114,6 +114,7 @@ a {
     line-height: 1.5;
     width: 1158px;
     height: 312px;
+    padding: 100px 0;
 }
 
 .paragraph-text {
@@ -309,4 +310,7 @@ border: 0;
     display: flex;
     padding: 120px 156px 120px 156px;
     gap: 24px;
+}
+.bs-item {
+    width: calc((100% - 72px) / 4);
 }

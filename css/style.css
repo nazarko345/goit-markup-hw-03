@@ -16,6 +16,7 @@ ol {
     display:flex;
     align-items: center;
     width: 1158px;
+    margin: 0;
 }
 
 .header-logo {
@@ -264,11 +265,6 @@ gap: 24px;
     width: 1158px;
     height: 600px;
 }
-.bs-list {
-display: flex;
-padding: 120px 156px 120px 156px;
-gap: 24px;
-}
 
 .portfolio-list {
     display: flex;
@@ -290,4 +286,27 @@ gap: 24px;
 .nav-item {
     margin-right: 0;
 
+}
+
+.bs-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+
+}
+.bs-item {
+    display: flex;
+    padding: 120px 156px 120px 156px;
+    gap: 24px;
 }

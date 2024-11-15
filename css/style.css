@@ -15,6 +15,7 @@ ol {
 .header-container {
     display:flex;
     align-items: center;
+    width: 1158px;
 }
 
 .header-logo {
@@ -110,7 +111,7 @@ a {
 .footer-page {
     background-color: #2e2f42;
     line-height: 1.5;
-    width: auto;
+    width: 1158px;
     height: 312px;
 }
 
@@ -260,7 +261,7 @@ padding: 0 156px 120px 156px;
 gap: 24px;
 }
 .hero-section {
-    width: auto;
+    width: 1158px;
     height: 600px;
 }
 .bs-list {

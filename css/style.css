@@ -305,7 +305,7 @@ white-space: nowrap;
 border: 0;
 
 }
-.bs-item {
+.bs-list {
     display: flex;
     padding: 120px 156px 120px 156px;
     gap: 24px;

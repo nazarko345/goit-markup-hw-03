@@ -15,13 +15,13 @@ ol {
 .header-container {
     display:flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
-
 }
+
 .header-logo {
     margin: 24px 76px 24px 156px;
 
 }
+
 .nav-header {
     display: flex;
     gap: 78px;
@@ -31,18 +31,24 @@ ol {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin: 24px 332px 24px 347px;
+    margin: 24px 332px 24px 0;
 
 }
+
 .contacts-list {
     display: flex;
     gap: 30px;
+
+}
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
 
 }
 
 a {
     text-decoration: none;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -150,6 +156,7 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
+    cursor: pointer
 }
 
 button:hover,

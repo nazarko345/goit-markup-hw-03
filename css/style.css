@@ -15,6 +15,8 @@ ol {
 .header-container {
     display:flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+
 }
 .header-logo {
     margin: 24px 76px 24px 156px;
@@ -23,6 +25,7 @@ ol {
 .nav-header {
     display: flex;
     gap: 78px;
+    align-items: center;
 }
 
 .nav-list {
@@ -108,11 +111,15 @@ a {
 .paragraph-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    margin: 140px 1020px 100px 156px;
+    padding: 0 1020px 100px 156px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .hero-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -125,6 +132,7 @@ a {
     padding-top: 188px;
     padding-left: 472px;
     padding-right: 472px;
+    max-width: 496px
 }
 
 .button {
@@ -138,6 +146,10 @@ a {
     text-align: center;
     margin: 48px 635px 188px 636px;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 button:hover,
@@ -259,5 +271,15 @@ gap: 24px;
     margin-right: 156px;
 }
 .footer-logo {
-    margin: 100px 1169px 0 156px;
+    margin: 100px 1169px 16px 156px;
+    display: inline-block;
+
+}
+
+.img-picture {
+    display: block;
+}
+.nav-item {
+    margin-right: 0;
+
 }

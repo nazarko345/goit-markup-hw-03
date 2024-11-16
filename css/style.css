@@ -50,6 +50,8 @@ ol {
     display: flex;
     gap: 78px;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-list {
@@ -63,7 +65,7 @@ ol {
 
 .contacts-list {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .logo {

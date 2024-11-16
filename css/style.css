@@ -119,6 +119,8 @@ a {
 .footer-page {
     background-color: #2e2f42;
     line-height: 1.5;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .paragraph-text {

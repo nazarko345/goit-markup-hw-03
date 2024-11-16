@@ -178,6 +178,9 @@ button:focus {
 
 .team-part {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
 }
 
 .portfolio-title {
@@ -282,6 +285,7 @@ margin-right: 0;
     display: flex;
     padding: 0 156px 120px 156px;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .hero-section {
@@ -349,4 +353,10 @@ margin-right: 0;
 .team-member-card {
     padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
 }

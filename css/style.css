@@ -129,6 +129,7 @@ a {
     padding: 0 1020px 100px 156px;
     margin-bottom: 16px;
     display: inline-block;
+    
 }
 
 .hero-section {
@@ -198,6 +199,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
@@ -287,7 +289,6 @@ button:focus {
     margin-bottom: 120px;
     margin-right: 156px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
 }
 
 .footer-logo {

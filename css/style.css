@@ -184,6 +184,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .bs-paragraf {
@@ -210,6 +211,7 @@ button:focus {
     padding: 120px 156px 120px 156px;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -260,8 +262,7 @@ margin-right: 0;
     text-transform: capitalize;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team-paragraf {
@@ -278,6 +279,7 @@ margin-right: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -342,6 +344,7 @@ margin-right: 0;
     margin-bottom: 120px;
     margin-right: 156px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-section {
@@ -354,6 +357,12 @@ margin-right: 0;
     border: 1px solid #e7e9fc;
     margin-bottom: 8px;
 }
+
+.portfolio-list-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+} 
 
             /* footer page */
 

@@ -198,7 +198,7 @@ button:focus {
 .bs-item {
     padding-top: 24px;
     padding-bottom: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
     border-top: none;
     margin-bottom: 8px;

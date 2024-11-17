@@ -317,10 +317,11 @@ margin-right: 0;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    width: calc((100% - 48px) / 3);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-subtitle {
@@ -368,9 +369,6 @@ margin-right: 0;
     margin-bottom: 8px;
     border-top: none;
 } 
-.portfolio-list .portfolio-widget:first-child {
-    width: calc((100% - 48px) / 3);
-}
 
             /* footer page */
 

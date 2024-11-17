@@ -311,7 +311,7 @@ margin-right: 0;
 }
 
 .portfolio-widget {
-    border: 1px solid #e7e9fc;
+
     background: #fff;
     background-color: #FFFFFF;
     font-size: 36px;
@@ -345,7 +345,6 @@ margin-right: 0;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-
     row-gap: 48px;
 }
 

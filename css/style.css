@@ -348,7 +348,6 @@ margin-right: 0;
     margin-bottom: 120px;
     margin-right: 156px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-section {
@@ -369,9 +368,6 @@ margin-right: 0;
     margin-bottom: 8px;
     border-top: none;
 } 
-.img-picture {
-    width: calc((100% - 48px) / 3);
-}
 
             /* footer page */
 

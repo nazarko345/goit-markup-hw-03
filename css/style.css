@@ -367,8 +367,10 @@ margin-right: 0;
     border: 1px solid #e7e9fc;
     margin-bottom: 8px;
     border-top: none;
-    width: calc((100% - 48px) / 3);
 } 
+.portfolio-list .portfolio-widget:first-child {
+    width: calc((100% - 48px) / 3);
+}
 
             /* footer page */
 

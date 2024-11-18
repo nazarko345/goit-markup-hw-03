@@ -197,10 +197,6 @@ button:focus {
 }
 
 .bs-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-bottom: 8px;
-    border-top: none;
     width: calc((100% - 72px) / 4);
 }
 
@@ -213,7 +209,7 @@ button:focus {
     padding: 120px 156px 120px 156px;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+
 }
 
 .visually-hidden {

@@ -38,12 +38,12 @@ ol {
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
 }
 
 .header-logo {
-    margin: 24px 76px 24px 156px;
+    padding-left: 0;
 
 }
 
@@ -59,7 +59,7 @@ ol {
     margin: 24px 332px 24px 0;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 40px;
+
 }
 
 .contacts-list {
@@ -100,6 +100,7 @@ ol {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 
 .nav-list:last-child {
@@ -137,6 +138,10 @@ ol {
     padding-bottom: 188px;
 }
 
+.hero-container {
+
+}
+
 .hero-section {
     width: 1158px;
     height: 600px;
@@ -147,12 +152,13 @@ ol {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #fff;
-    width: 1440px;
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
-    max-width: 496px
+    color: #fff; 
+    max-width: 496px;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-bottom: 48px;
+    margin-top: 0;
+
 }
 
 .button {
@@ -164,7 +170,8 @@ ol {
     border-radius: 4px;
     margin-top: 48px;
     text-align: center;
-    margin: 48px 635px 188px 636px;
+    margin-left: 480px;
+    margin-left: 480px;
     padding: 16px 32px;
     display: block;
     min-width: 169px;
@@ -283,9 +290,7 @@ margin-right: 0;
 .team-list {
     text-align: center;
     display: flex;
-    padding: 0 156px 120px 156px;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-card {
@@ -302,7 +307,7 @@ margin-right: 0;
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 120px 611px 72px 611px;
+    margin-bottom: 72px;
 }
 
 .portfolio-widget {
@@ -353,11 +358,8 @@ margin-right: 0;
             /* footer page */
 
 .footer-logo {
-    margin: 100px 1169px 16px 156px;
+    margin-bottom: 16px;
     display: inline-block;
-
-
-
 }
 
 .footer-logo .logo-part {
@@ -378,8 +380,15 @@ margin-right: 0;
 .paragraph-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    padding: 0 1020px 100px 156px;
-    margin-bottom: 16px;
-    display: inline-block;
+    margin-right: 276px;
+    
+}
 
+.footer-container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
